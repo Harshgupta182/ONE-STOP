@@ -4,8 +4,8 @@
 
 // TIMER
 
-
-var countDownDate = new Date("1 jan 2022 , 00:00:00").getTime();
+// Set the date we're counting down to
+var countDownDate = new Date("23 jan 2022 , 00:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -29,6 +29,32 @@ var x = setInterval(function() {
    minutes + "min " ;
   document.getElementById("timer3").innerHTML =  
   seconds + "sec ";
+  document.getElementById("timer4").innerHTML =  hours + "hour ";
+  
+  document.getElementById("timer5").innerHTML =  
+   minutes + "min " ;
+  document.getElementById("timer6").innerHTML =  
+  seconds + "sec ";
+  document.getElementById("timer7").innerHTML =  hours + "hour ";
+  
+  document.getElementById("timer8").innerHTML =  
+   minutes + "min " ;
+  document.getElementById("timer9").innerHTML =  
+  seconds + "sec ";
+  document.getElementById("timer10").innerHTML =  hours + "hour ";
+  
+  document.getElementById("timer11").innerHTML =  
+   minutes + "min " ;
+  document.getElementById("timer12").innerHTML =  
+  seconds + "sec ";
+  document.getElementById("timer13").innerHTML =  hours + "hour ";
+  
+  document.getElementById("timer14").innerHTML =  
+   minutes + "min " ;
+  document.getElementById("timer15").innerHTML =  
+  seconds + "sec ";
+  
+
     
   // If the count down is over, write some text 
   if (distance < 0) {
